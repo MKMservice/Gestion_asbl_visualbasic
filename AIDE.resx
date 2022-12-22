@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>Accueil
+
+L'accueil est l'interface  dont l'utilisateur se servira pour entrer dans des différentes options de notre application.
+gestion ASBL comporte 6 grandes options 
+Membre
+Cotisation
+Caisse
+Fiche
+Récit
+Calcul
+Administrateur
+Déconnexion
+Les membres de cette association sont des personnes vivant avec handicap qui travaillent à la frontière de la RDC et la Zambie dans la province du haut Katanga précisément à Kasumbalesa ainsi ils effectuent leurs activités grâce aux vélos tricycle avec porte bagage derrière. Est-ce vélo avance ou marche grâce à la force musculaire de personnes qui se tient du côté droit et gauche et d'autres derrière ces gens sont communément appelé pousseurs.</value>
+  </data>
+  <data name="RichTextBox2.Text" xml:space="preserve">
+    <value>Chapitre 1 OPTION DES MEMBRES
+Comment enregistrer un membre ?
+Pour enregistrer le membre nous avons prévu ce procédé si simple à tout le monde.
+Dans l'interface de membre il y a des champs insertion des données du côté  gauche en haut est là vous trouverez ceci:
+
+Id membre est un numéro automatique pour chaque membre (matricule) pour que nous ne puissions pas avoir deux membres avec deux informations semblables et dans ce champ vous n'êtes pas forcé à écrire car le logiciel s'en chargera.
+
+Nom : le nom est comme vous l'entendez couramment est un nom de la personne dont nous voulons enregistrer et c’est obligatoire si vous n'avez pas écrit le nom vous ne pouvez pas sauvegarder la personne.
+
+Post nom : est comme vous l'entendez couramment est un nom du père de la personne dont nous voulons enregistrer et c’est obligatoire si vous n'avez pas écrit le nom vous ne pouvez pas sauvegarder la personne
+
+Prénom : est comme vous l'entendez couramment est un deuxième nom de la personne dont nous voulons enregistrer et c’est obligatoire si vous n'avez pas écrit le nom vous ne pouvez pas sauvegarder la personne
+
+ Sexe : est juste le genre de la personne dont il est question car l'association travail avec des hommes et aussi des femmes.
+
+Arriver : est la date  que le membre est enregistrée où la date d'adhésion.
+
+Nombre des vélos : ce pour savoir combien les vélos que la personne a,  sachant que une personne ne peut pas dépasser 3  ce pour cela il y a une liste déroulante des choix comprennent 0.1.2.3
+
+Nombre de pousseurs : il est très important de savoir des personnes que le membre travail avec eux pour bien connaître leur nombre.
+
+Téléphone : est aussi élément capital dont un membre doit fournir dans ces informations car on peut avoir besoin de lui à la  direction n'importe quand ainsi son numéro sera très bénéfique pour lui atteindre.
+
+Adresse : est aussi éléments capital dont un membre doit fournir dans ces informations car on peut avoir besoin de lui visité en cas de la maladie ou un autre cas d'urgence même pour la visite de courtoisie  et il doit donner son adresse physique correct donc là où il habite.
+
+Observation : sachant que c'est une association des personnes vivant avec handicap, il est prudent de savoir la sorte d'handicap qu’a membre.
+
+Nb : seulement les handicapés moteurs sont permis d'adhérer et ils ont leur sorte entre autre paralysie jambe gauche, jambe  droite même aussi au niveau des bras.
+
+Comment modifier un membre?
+
+Il est mieux de modifier si les informations de la personne en question change
+Pour cela nous avions prévu un bouton nommé modifier.
+Pour y arriver tu dois savoir qu’est-ce que  veut modifier, par exemple quelqu'un avait un seul vélo mais il trouve bon d'avoir l'autre catégoriquement il faut ajouter sur le nombre de ces vélos.
+Même quelqu'un qui n'avait pas le vélo quand il trouve son propre vélo il faut modifier.
+Donc pour se faire vous devez regarder là où il y a une erreur ou là où il faut faire un mis en jour ensuite apporter votre modification  à la fin cliquez sur le bouton modifier.
+
+Comment supprimer un membre ?
+Pour supprimer un membre vous devez le sélectionner ensuite cliquez sur supprimer.
+
+Nb: on peut supprimer un membre exclu de l'asbl ou celui qui est  mort.
+
+Comment imprimer la liste des membres ?
+
+Sachant que ces informations sont très importantes il est toujours conseiller de l’avoir dans un autre fichier. Comme PDF Word et autres voir même imprimé sur les papiers enfin de le classé dans le bureau.
+De ce fait nous avons prévu le bouton d’impression qui est juste en bas du formulaire d’ajout.
+Apres avoir cliquez la dessus une fenêtre apparait avec toutes les informations possibles de l’impression.
+
+Comment se déplacé dans la liste ?
+
+Nous avons prévu 4 boutons pour le déplacement dans la liste des membres
+
+Le premier bouton avec comme signe (&lt;&lt;) qui signifie juste aller au début de la liste
+
+Le second bouton avec comme signe (&lt;) qui vous facilite d’aller au précèdent membre
+
+Le second bouton avec comme signe (&gt;) qui vous facilite d’aller au membre suivant 
+
+Le dernier bouton avec comme signe (&gt;&gt;) qui vous facilite d’aller à la fin de la liste 
+
+Comment faire la recherche ?
+
+Il est très utiles de faire la recherche car aussi longtemps que les membres adhère la liste devient de plus en plus longue, dans ce cas il sera mieux de faire une recherche rapide pour faciliter la bonne navigation.
+Nous avons prévu de zone de recherche selon votre besoin.
+Ainsi tu peux chercher à partir du nom, prénom, sexe, date, nombres de vélos, et aussi sorte d’handicap ainsi de suite
+Donc vous écrivez où choisir à partir d’une liste de roulante le choix de votre recherche ensuite vous cliquerez sur le bouton correspondant à la recherche
+
+Comment sortir de la page ?
+
+Tu peux le faire en cliquant sur le bouton de l’option que tu veux aller ou sur le bouton retour</value>
+  </data>
+  <metadata name="ErrorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>106, 17</value>
+  </metadata>
+  <data name="Txtcalcul.Text" xml:space="preserve">
+    <value>Chapitre 8 OPTION DE CALCUL
+
+L’option de calcul est mini des trois particularités à savoir
+
+1)	la calculatrice
+2)	Calcul de rapport
+3)	L’échange devise
+
+1.1	CALCULATRICE 
+Nous aide de faire des différent calcul les plus courant dans une activité donnée par l’aide quatre opération de qui sont l’addition , la division, la multiplication, et la soustraction, de ce fait notre calculatrice mise en place fera ces opération de bases que nous venons d’énumérais et en ajoutant aussi calcul des pourcentage qui se trouve dans le système de fonctionnement de calculatrice ordinaire.
+1.2	LE FONCTIONNEMENT DE LA CALCULATRICE
+Notre calculatrice est juste simple comme toute les autres tant et son fonctionnement est très simple mais vous ne pouvez pas appuyer sur une fonction sans tout d’abord inséré le nombre que vous voulez calculer si vous faite le contraire vous aurez le message qui vous signal d’inséré le nombre avant de calculer.
+2	1 CALCUL DE RAPPORT
+Sachant que notre association est dépendante de la hiérarchie de ce fait nous devons établir à chaque fois des rapports à nos supérieurs dans l’option ci haut nous avons la possibilité des rédiger nos propres textes sans utilisé des autres logiciel de traitement de texte  mais ici nous faisons le calcul pour envoyer le rapport financier.
+Selon l’organisation de la  ligue des personnes vivant avec handicap de haut Katanga, une association sur les cotisations récolté leur caisse à droits à 45% est le comité directeur de cette association à 20% tandis que l’entente urbaine à 35%
+Donc l’association doit envoyez sont rapport à l’entente urbaine est celle-ci aussi à la ligue ainsi cette répartition est calculable par des pourcentages.
+Dès ce fait nous avons mis au point le calcul de cette transaction automatiquement de comme ça :
+2 2 FONCTIONNEMENT 
+Pour commencer nous devons savoir que, nous ne pouvons pas parler de cette partage sans avoir le montant même à se partager ainsi vous devez inséré le montant le réussi est le montant trouver par l’association dans la cotisation , après avoir saisie ce montant vous avez un bouton calculer qui vous permette de d’avoir la réponse déjà bien calculé donc le montant du comité et celui de l’entente et dans le champ de réponse on vous donne la possibilité de copié est allez le coller là vous voulez. Ex : pour enregistré une transaction dans la caisse il vous faut enregistrer même le pourcent que vous avez envoyez a vos supérieur et de vous-même le comité directeur ainsi vous pouvez venir faire le calcul ensuite faire la copie coller.
+Nous avons aussi prévu un bouton de d’effacer qui vous permette d’effacer tout ce que vous avez comme résultat voir même le montant réussi inséré.
+NB : vous ne pouvez pas cliquer sur calculer sans toutefois mettre d’abord le montant à calculer
+
+3	1 ECHANGE DE DEVISE 
+Nul ne sans ignoré que dans ce monde nous avons diffèrent monnaie c’est alors que l’échange des monnaies a vu le jour.
+Comme dans notre pays la rd Congo travail avec deux monnaies a savoir franc congolais et le dollar américain.
+Nous avons mis en place cette rubrique d’échange des monnaies ou en d’autres termes la conversion des monnaies c’est-à-dire savoir combien vaut le franc en dollar ou le dollar en franc.
+
+3	2 FONCTIONNEMENT
+De francs en dollars : sur le champ du taux du jour vous devez insérer le taux du jour qui est l’unité de conversion de monnaies quoi varie selon l’économie du pays donc l’utilisateur doit savoir le taux du jour pour qu’il ne se trompe pas dans ces calcules ensuite sur le champ montant en franc vous devez insérer le montant que vous voulez savoir sa valeur en dollars.
+Nous avons aussi prévu un bouton de d’effacer qui vous permette d’effacer tout ce que vous avez comme résultat voir même le montant le taux du jour.
+
+NB : vous ne pouvez pas cliquer sur le bouton calculer sans toutefois remplir ces champs qui sont vraiment obligatoire sinon vous aurez un message d’erreur.
+
+De dollars en  francs: sur le champ du taux du jour vous devez insérer le taux du jour qui est l’unité de conversion de monnaies quoi varie selon l’économie du pays donc l’utilisateur doit savoir le taux du jour pour qu’il ne se trompe pas dans ces calcules ensuite sur le champ montant en dollars vous devez insérer le montant que vous voulez savoir sa valeur en francs.
+Nous avons aussi prévu un bouton de d’effacer qui vous permette d’effacer tout ce que vous avez comme résultat voir même le montant le taux du jour.
+
+NB : vous ne pouvez pas cliquer sur le bouton calculer sans toutefois remplir ces champs qui sont vraiment obligatoire sinon vous aurez un message d’erreur.
+Si vous ne trouvez pas la satisfaction dans ces points veuillez nous contactez sur 
++243 99 187 18 97
++243 85 138 03 68</value>
+  </data>
+</root>
